@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*Common part*/
+.common-btn{
+    padding: 8px 18px;
+    border-radius: 5px;
+    background-color: #1D4ED8;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+/*Nav Section*/
+
+img{
+    width: 110px;
+    height: auto;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 18px 8%;
+    align-items: center;
+    background-color: #ffffff;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 10px;
+    
+}
+a{
+    text-decoration: none;
+    color: #575757;
+}
