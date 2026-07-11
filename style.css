@@ -202,6 +202,39 @@ header {
   color: #1d4ed8;
 }
 
+/*Venue Section Start Here*/
+.venue {
+  align-items: center;
+  text-align: center;
+  padding-bottom: 60px;
+}
+.venue h2 {
+  font-size: 48px;
+  font-weight: bold;
+}
+.venue p {
+  font-size: 16px;
+  color: #575757;
+}
+.venue-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: space-between;
+}
+.venue-container .venue-info h2 {
+  font-weight: bold;
+}
+.venue-container .venue-info p {
+  color: #5a4f47;
+  line-height: 2rem;
+}
+
+.venue-container div img {
+  width: 90%;
+  border-radius: 8px;
+}
+
 /*Footer Section start Here*/
 footer {
   background-color: #0d1b2a;
