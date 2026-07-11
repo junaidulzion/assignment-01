@@ -205,7 +205,9 @@ header {
 /*Footer Section start Here*/
 footer {
   background-color: #0d1b2a;
-  padding: ;
+}
+.footer-container {
+  padding: 20px 8%;
 }
 .footer-image {
   text-align: center;
@@ -228,8 +230,9 @@ footer {
   height: 28px;
   width: 28px;
 }
-.footer-bottom{
+.footer-bottom {
   text-align: center;
   padding-top: 10px;
   color: #fff;
+  padding-bottom: none;
 }
